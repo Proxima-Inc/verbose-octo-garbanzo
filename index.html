@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Resizer JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/side-nav.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <script src="js/side-nav.js" defer></script>
+  </head>
+  <body>
+    </div>
+    <nav class="top-nav">
+      <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="side-container">
+    <div class="inner-side">
+    <img class="side-icon" src="img/icon.png" alt="" />
+  </div>
+  <button class="btn" id="myButton1">App made by</button>
+  <div id="myDiv1" style="display:none;" class="com-name"> Ogunsola Akorede</div>
+
+  <button class="btn" id="myButton2">Socials</button>
+  <div id="myDiv2" style="display:none;" class="com-name"> wa me @ +234 915 162 7535</div>
+  
+  <button class="btn" id="myButton3">Show App description</button>
+<div id="myDiv3" style="display:none;" class="desc">
+Introducing the ultimate <b>Proxi image resizing tool!</b> With our App, you can quickly and easily resize your images to the perfect dimensions, no matter what device you're using. Whether you need to shrink a large image to fit a specific space or enlarge a small image to make it more prominent, our App has you covered.
+
+Our user-friendly interface makes it simple to upload your images and choose your desired size. Plus, our advanced resizing algorithms ensure that the quality of your images is maintained, even after resizing. And with offline support, you can resize your images even when you're not connected to the internet.
+
+Don't waste time using complicated photo editing software or struggling to resize images on your own. With our App, you can get professional-quality results in just a few clicks. Try it out today and see for yourself!<br /><p class="credit">&copy; 2023,  made with ❤️.</p></div>
+  </div></div>
+
+<!-- Use any element to open the sidenav -->
+<span class="menu" onclick="openNav()">&#9776;</span>
+
+<span class="nav-text">Proxi Image Resizer</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+
+    </nav>
+<div id="main">
+    <main>
+    <div class="wrapper">
+      <div class="upload-box">
+        <input type="file" accept="image/*" hidden>
+        <img width="100px" src="upload.svg" alt="">
+        <p>choose an image to resize</p>
+      </div>
+      <div class="content">
+        <div class="row sizes">
+          <div class="column width">
+            <label>Width</label>
+            <input class="inputNum" type="number">
+            <br/>
+          </div>
+          <div class="column height">
+            <label>Height</label>
+            <input class="inputNum" type="number">
+          </div>
+        </div>
+        <div class="row checkboxes">
+          <div class="column ratio">
+            <input type="checkbox" id="ratio" checked>
+            <label for="ratio">Lock aspect ratio</label>
+          </div>
+          <div class="column quality">
+            <input type="checkbox" id="quality">
+            <label for="quality">Reduce quality</label>
+          </div>
+        </div>
+        <button class="download-btn">Save image</button>
+      </div>
+    </div>
+    </main>
+      <center>
+      </center>
+      </div>
+      <script src="js/manifest.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
