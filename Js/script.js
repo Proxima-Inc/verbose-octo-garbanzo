@@ -105,3 +105,4 @@ window.onload = function() {
     document.getElementById("myDiv2").style.display = "block";
 
   });
+downloadBtn.addEventListener("click", resizeAndDownload);
